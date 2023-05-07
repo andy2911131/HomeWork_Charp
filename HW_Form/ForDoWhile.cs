@@ -225,7 +225,7 @@ namespace HW_Form
             labResult.Text = "int陣列[ ] arr0711 [ 1, 5, 6, 8, 7, 97, 54, 887, 65, 578 ]\n最小值為 " + min02;
         }
 
-        //找尋字串陣列中有幾個人的名字有C和c
+        //搜尋字串陣列中有幾個人的名字有C和c
         private void btnArrC_Click(object sender, EventArgs e)
         {
             int count = 0;
