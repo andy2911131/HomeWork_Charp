@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\bin\Debug\HomeWork_Charp.exe.config
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\bin\Debug\HomeWork_Charp.exe
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\bin\Debug\HomeWork_Charp.pdb
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\obj\Debug\HomeWork_Charp.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\obj\Debug\HomeWork_Charp.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\obj\Debug\HomeWork_Charp.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\obj\Debug\HomeWork_Charp.exe
+C:\Users\USER\source\repos\HomeWork_Charp\HomeWork_Charp\obj\Debug\HomeWork_Charp.pdb
