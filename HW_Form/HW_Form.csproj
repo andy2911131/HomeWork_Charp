@@ -97,6 +97,12 @@
     <Compile Include="Notepad.Designer.cs">
       <DependentUpon>Notepad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Notepad_about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notepad_about.Designer.cs">
+      <DependentUpon>Notepad_about.cs</DependentUpon>
+    </Compile>
     <Compile Include="XoGame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notepad_about.resx">
+      <DependentUpon>Notepad_about.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student_sturct_Form.resx">
       <DependentUpon>Student_sturct_Form.cs</DependentUpon>

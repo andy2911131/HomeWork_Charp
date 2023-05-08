@@ -18,7 +18,7 @@ namespace HW_Form
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ForDoWhile());
+            Application.Run(new homework());
         
         }
     }

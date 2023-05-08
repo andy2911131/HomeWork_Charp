@@ -39,6 +39,7 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.btnForDoWhile = new System.Windows.Forms.Button();
+            this.btnNotepad = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -166,6 +167,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel2.BackgroundImage")));
+            this.splitContainer2.Panel2.Controls.Add(this.btnNotepad);
             this.splitContainer2.Panel2.Controls.Add(this.btnForDoWhile);
             this.splitContainer2.Panel2.Controls.Add(this.btnHello);
             this.splitContainer2.Panel2.Controls.Add(this.XoGame);
@@ -189,6 +191,18 @@
             this.btnForDoWhile.Text = "ForDoWhile";
             this.btnForDoWhile.UseVisualStyleBackColor = false;
             this.btnForDoWhile.Click += new System.EventHandler(this.btnForDoWhile_Click);
+            // 
+            // btnNotepad
+            // 
+            this.btnNotepad.AutoSize = true;
+            this.btnNotepad.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnNotepad.Location = new System.Drawing.Point(58, 340);
+            this.btnNotepad.Name = "btnNotepad";
+            this.btnNotepad.Size = new System.Drawing.Size(115, 23);
+            this.btnNotepad.TabIndex = 8;
+            this.btnNotepad.Text = "Notepad";
+            this.btnNotepad.UseVisualStyleBackColor = false;
+            this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
             // 
             // homework
             // 
@@ -225,6 +239,7 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.Button btnForDoWhile;
+        private System.Windows.Forms.Button btnNotepad;
     }
 }
 

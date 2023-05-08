@@ -21,7 +21,11 @@ namespace HW_Form
 
         }
 
-      
+        //開啟時清空PANEL上的工具()
+        private void Panel1Clear()
+        {
+            splitContainer2.Panel1.Controls.Clear();
+        }
         private void btnhello_Click(object sender, EventArgs e)
         {
             Panel1Clear();
@@ -97,10 +101,15 @@ namespace HW_Form
 
         }
 
-        //開啟時清空PANEL上的工具()
-        private void Panel1Clear()
+        
+
+        private void btnNotepad_Click(object sender, EventArgs e)
         {
-            splitContainer2.Panel1.Controls.Clear();
+            Panel1Clear();
+            Notepad notepad = new Notepad();
+            notepad.MdiParent = this;
+            notepad.Parent = splitContainer2.Panel1;
+            notepad.Show();
         }
     }
 }
