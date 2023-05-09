@@ -38,8 +38,9 @@
             this.btnHello = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.btnForDoWhile = new System.Windows.Forms.Button();
             this.btnNotepad = new System.Windows.Forms.Button();
+            this.btnForDoWhile = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -51,10 +52,11 @@
             // btnClac
             // 
             this.btnClac.AutoSize = true;
-            this.btnClac.BackColor = System.Drawing.Color.LemonChiffon;
-            this.btnClac.Location = new System.Drawing.Point(58, 195);
+            this.btnClac.BackColor = System.Drawing.Color.Gold;
+            this.btnClac.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnClac.Location = new System.Drawing.Point(65, 208);
             this.btnClac.Name = "btnClac";
-            this.btnClac.Size = new System.Drawing.Size(115, 23);
+            this.btnClac.Size = new System.Drawing.Size(169, 26);
             this.btnClac.TabIndex = 3;
             this.btnClac.Text = "Clac";
             this.btnClac.UseVisualStyleBackColor = false;
@@ -63,10 +65,11 @@
             // btnPos
             // 
             this.btnPos.AutoSize = true;
-            this.btnPos.BackColor = System.Drawing.Color.LemonChiffon;
-            this.btnPos.Location = new System.Drawing.Point(58, 166);
+            this.btnPos.BackColor = System.Drawing.Color.Gold;
+            this.btnPos.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnPos.Location = new System.Drawing.Point(65, 179);
             this.btnPos.Name = "btnPos";
-            this.btnPos.Size = new System.Drawing.Size(115, 23);
+            this.btnPos.Size = new System.Drawing.Size(169, 26);
             this.btnPos.TabIndex = 2;
             this.btnPos.Text = "Pos";
             this.btnPos.UseVisualStyleBackColor = false;
@@ -75,10 +78,11 @@
             // btnLoan
             // 
             this.btnLoan.AutoSize = true;
-            this.btnLoan.BackColor = System.Drawing.Color.LemonChiffon;
-            this.btnLoan.Location = new System.Drawing.Point(58, 137);
+            this.btnLoan.BackColor = System.Drawing.Color.Gold;
+            this.btnLoan.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnLoan.Location = new System.Drawing.Point(65, 150);
             this.btnLoan.Name = "btnLoan";
-            this.btnLoan.Size = new System.Drawing.Size(115, 23);
+            this.btnLoan.Size = new System.Drawing.Size(169, 26);
             this.btnLoan.TabIndex = 1;
             this.btnLoan.Text = "Loan";
             this.btnLoan.UseVisualStyleBackColor = false;
@@ -87,10 +91,11 @@
             // Student_Grage_Form
             // 
             this.Student_Grage_Form.AutoSize = true;
-            this.Student_Grage_Form.BackColor = System.Drawing.Color.LemonChiffon;
-            this.Student_Grage_Form.Location = new System.Drawing.Point(58, 253);
+            this.Student_Grage_Form.BackColor = System.Drawing.Color.Gold;
+            this.Student_Grage_Form.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Student_Grage_Form.Location = new System.Drawing.Point(65, 266);
             this.Student_Grage_Form.Name = "Student_Grage_Form";
-            this.Student_Grage_Form.Size = new System.Drawing.Size(115, 23);
+            this.Student_Grage_Form.Size = new System.Drawing.Size(169, 26);
             this.Student_Grage_Form.TabIndex = 5;
             this.Student_Grage_Form.Text = "Student_Grage_Form";
             this.Student_Grage_Form.UseVisualStyleBackColor = false;
@@ -99,10 +104,11 @@
             // Student_struct_Form
             // 
             this.Student_struct_Form.AutoSize = true;
-            this.Student_struct_Form.BackColor = System.Drawing.Color.LemonChiffon;
-            this.Student_struct_Form.Location = new System.Drawing.Point(58, 224);
+            this.Student_struct_Form.BackColor = System.Drawing.Color.Gold;
+            this.Student_struct_Form.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Student_struct_Form.Location = new System.Drawing.Point(65, 237);
             this.Student_struct_Form.Name = "Student_struct_Form";
-            this.Student_struct_Form.Size = new System.Drawing.Size(115, 23);
+            this.Student_struct_Form.Size = new System.Drawing.Size(169, 26);
             this.Student_struct_Form.TabIndex = 4;
             this.Student_struct_Form.Text = "Student_struct_Form";
             this.Student_struct_Form.UseVisualStyleBackColor = false;
@@ -111,10 +117,11 @@
             // XoGame
             // 
             this.XoGame.AutoSize = true;
-            this.XoGame.BackColor = System.Drawing.Color.LemonChiffon;
-            this.XoGame.Location = new System.Drawing.Point(58, 282);
+            this.XoGame.BackColor = System.Drawing.Color.Gold;
+            this.XoGame.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.XoGame.Location = new System.Drawing.Point(65, 295);
             this.XoGame.Name = "XoGame";
-            this.XoGame.Size = new System.Drawing.Size(115, 23);
+            this.XoGame.Size = new System.Drawing.Size(169, 26);
             this.XoGame.TabIndex = 6;
             this.XoGame.Text = "XoGame";
             this.XoGame.UseVisualStyleBackColor = false;
@@ -123,10 +130,12 @@
             // btnHello
             // 
             this.btnHello.AutoSize = true;
-            this.btnHello.BackColor = System.Drawing.Color.LemonChiffon;
-            this.btnHello.Location = new System.Drawing.Point(58, 108);
+            this.btnHello.BackColor = System.Drawing.Color.Gold;
+            this.btnHello.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnHello.ForeColor = System.Drawing.Color.Black;
+            this.btnHello.Location = new System.Drawing.Point(65, 121);
             this.btnHello.Name = "btnHello";
-            this.btnHello.Size = new System.Drawing.Size(115, 23);
+            this.btnHello.Size = new System.Drawing.Size(169, 26);
             this.btnHello.TabIndex = 0;
             this.btnHello.Text = "Hello ";
             this.btnHello.UseVisualStyleBackColor = false;
@@ -167,6 +176,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel2.BackgroundImage")));
+            this.splitContainer2.Panel2.Controls.Add(this.button1);
             this.splitContainer2.Panel2.Controls.Add(this.btnNotepad);
             this.splitContainer2.Panel2.Controls.Add(this.btnForDoWhile);
             this.splitContainer2.Panel2.Controls.Add(this.btnHello);
@@ -180,29 +190,45 @@
             this.splitContainer2.SplitterDistance = 882;
             this.splitContainer2.TabIndex = 0;
             // 
+            // btnNotepad
+            // 
+            this.btnNotepad.AutoSize = true;
+            this.btnNotepad.BackColor = System.Drawing.Color.Gold;
+            this.btnNotepad.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnNotepad.Location = new System.Drawing.Point(65, 353);
+            this.btnNotepad.Name = "btnNotepad";
+            this.btnNotepad.Size = new System.Drawing.Size(169, 26);
+            this.btnNotepad.TabIndex = 8;
+            this.btnNotepad.Text = "Notepad";
+            this.btnNotepad.UseVisualStyleBackColor = false;
+            this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
+            // 
             // btnForDoWhile
             // 
             this.btnForDoWhile.AutoSize = true;
-            this.btnForDoWhile.BackColor = System.Drawing.Color.LemonChiffon;
-            this.btnForDoWhile.Location = new System.Drawing.Point(58, 311);
+            this.btnForDoWhile.BackColor = System.Drawing.Color.Gold;
+            this.btnForDoWhile.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnForDoWhile.Location = new System.Drawing.Point(65, 324);
             this.btnForDoWhile.Name = "btnForDoWhile";
-            this.btnForDoWhile.Size = new System.Drawing.Size(115, 23);
+            this.btnForDoWhile.Size = new System.Drawing.Size(169, 26);
             this.btnForDoWhile.TabIndex = 7;
             this.btnForDoWhile.Text = "ForDoWhile";
             this.btnForDoWhile.UseVisualStyleBackColor = false;
             this.btnForDoWhile.Click += new System.EventHandler(this.btnForDoWhile_Click);
             // 
-            // btnNotepad
+            // button1
             // 
-            this.btnNotepad.AutoSize = true;
-            this.btnNotepad.BackColor = System.Drawing.Color.LemonChiffon;
-            this.btnNotepad.Location = new System.Drawing.Point(58, 340);
-            this.btnNotepad.Name = "btnNotepad";
-            this.btnNotepad.Size = new System.Drawing.Size(115, 23);
-            this.btnNotepad.TabIndex = 8;
-            this.btnNotepad.Text = "Notepad";
-            this.btnNotepad.UseVisualStyleBackColor = false;
-            this.btnNotepad.Click += new System.EventHandler(this.btnNotepad_Click);
+            this.button1.AutoSize = true;
+            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(65, 382);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(169, 31);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Screensaver";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // homework
             // 
@@ -240,6 +266,7 @@
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.Button btnForDoWhile;
         private System.Windows.Forms.Button btnNotepad;
+        private System.Windows.Forms.Button button1;
     }
 }
 

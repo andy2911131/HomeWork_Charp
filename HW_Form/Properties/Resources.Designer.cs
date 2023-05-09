@@ -73,6 +73,16 @@ namespace HW_Form.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap _17e51481ac731d5aa3a8fe8517aba6e0 {
+            get {
+                object obj = ResourceManager.GetObject("17e51481ac731d5aa3a8fe8517aba6e0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap coca {
             get {
                 object obj = ResourceManager.GetObject("coca", resourceCulture);

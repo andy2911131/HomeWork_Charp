@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_Charp", "HomeWork_Charp\HomeWork_Charp.csproj", "{8495E80C-0C82-444A-8242-47786A20C54A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_Form", "HW_Form\HW_Form.csproj", "{C5A36046-FFD5-4CC5-B855-58DEA6F1388F}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8495E80C-0C82-444A-8242-47786A20C54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8495E80C-0C82-444A-8242-47786A20C54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8495E80C-0C82-444A-8242-47786A20C54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8495E80C-0C82-444A-8242-47786A20C54A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5A36046-FFD5-4CC5-B855-58DEA6F1388F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5A36046-FFD5-4CC5-B855-58DEA6F1388F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A36046-FFD5-4CC5-B855-58DEA6F1388F}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -111,5 +111,12 @@ namespace HW_Form
             notepad.Parent = splitContainer2.Panel1;
             notepad.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Panel1Clear();
+            Screensaver screensaver = new Screensaver();   
+            screensaver.Show();
+        }
     }
 }

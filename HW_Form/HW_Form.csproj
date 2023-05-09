@@ -91,6 +91,12 @@
     <Compile Include="ForDoWhile.Designer.cs">
       <DependentUpon>ForDoWhile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screensaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screensaver.Designer.cs">
+      <DependentUpon>Screensaver.cs</DependentUpon>
+    </Compile>
     <Compile Include="Notepad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,12 @@
     </Compile>
     <Compile Include="Notepad_about.Designer.cs">
       <DependentUpon>Notepad_about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_GradeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_GradeList.Designer.cs">
+      <DependentUpon>Student_GradeList.cs</DependentUpon>
     </Compile>
     <Compile Include="XoGame.cs">
       <SubType>Form</SubType>
@@ -159,11 +171,17 @@
     <EmbeddedResource Include="ForDoWhile.resx">
       <DependentUpon>ForDoWhile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screensaver.resx">
+      <DependentUpon>Screensaver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad_about.resx">
       <DependentUpon>Notepad_about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_GradeList.resx">
+      <DependentUpon>Student_GradeList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Student_sturct_Form.resx">
       <DependentUpon>Student_sturct_Form.cs</DependentUpon>
@@ -239,6 +257,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17e51481ac731d5aa3a8fe8517aba6e0.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -17,20 +17,14 @@ namespace HW_Form
         {
             InitializeComponent();
         }
-        String Name;
-        int ID; // 隨機姓名用
+        String Name;      
         int Ch =0;
         int Eng =0;
         int Math =0;
         double All;
         double Avg;
         String Result;
-        //ArrayList NameList = new ArrayList();
-        //ArrayList ChList = new ArrayList();
-        //ArrayList EngList = new ArrayList();
-        //ArrayList MathList = new ArrayList();
-        //ArrayList MinList = new ArrayList();
-        //ArrayList MaxList = new ArrayList();
+
         List<string> NameList =new List<string>();
         List<int> ChList = new List<int>();
         List<int> EngList = new List<int>();

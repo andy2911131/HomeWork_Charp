@@ -115,23 +115,23 @@ namespace HW_Form
         private void btnLotto_Click(object sender, EventArgs e)
         {
             string result = "";
-            int[] lotto = new int[49]; //將所有號碼(1~49)放入陣列loto中
+            int[] lotto = new int[49]; 
             for (int i = 0; i <lotto.Length; i++)
             {
                 lotto[i] = i + 1;
             }
-            int[] x = new int[6]; //宣告要取多少個數字
+            int[] x = new int[6]; 
             Random r = new Random();
             for (int j = 0; j <x.Length; j++)
             {
-                int k = r.Next(1, 49); //隨機抓取一組數字放入x[]陣列中
+                int k = r.Next(1, 49); 
                 if (lotto[k] == 0) 
-                { j--; }//如果數字為0，則重新產生亂數
+                { j--; }
                 else
                 {
-                    x[j] = lotto[k]; //否則將亂數產生之數字放入x[]陣列中
+                    x[j] = lotto[k]; 
                     result += x[j].ToString()+" " ;
-                    lotto[k] = 0; //將以使用之數字以零取代
+                    lotto[k] = 0;
                     labResult.Text = "樂透號碼\n" + result;
                 }
             }
@@ -240,5 +240,63 @@ namespace HW_Form
             }        
             labResult.Text = "string陣列[ ]arr0711_Str [mother張, emma, 迪克蕭, J40, Candy, Cindy, Coconut, Motherfacker]\n最C及c的名字共有:" + count +" 個";
         }
+
+        //For
+        private void btnFor_Click(object sender, EventArgs e)
+        {
+            int total = 0;
+            if (int.TryParse(txtfrom.Text, out int form) && int.TryParse(txtTo.Text, out int to) && int.TryParse(txtStep.Text, out int step))
+            {
+                for (int i = form; i <= to; i += step)
+                {
+                    total += i;
+                }
+                labResult.Text = $" {form} 到 {to} 相隔 {step - 1}\n加總為 {total}";
+            }
+            else
+            {
+                MessageBox.Show("請輸入數值");
+            }
+        }
+        //while
+        private void button18_Click(object sender, EventArgs e)
+        {
+            int total = 0;
+            if (int.TryParse(txtfrom.Text, out int form) && int.TryParse(txtTo.Text, out int to) && int.TryParse(txtStep.Text, out int step))
+            {
+                int start = form;
+                while (form <= to)
+                {
+                    total += form;
+                    form += step;
+                }
+                labResult.Text = $" {start} 到 {to} 相隔 {step - 1}\n加總為 {total}";
+            }
+            else
+            {
+                MessageBox.Show("請輸入數值");
+            }
+        }
+        //do
+        private void button19_Click(object sender, EventArgs e)
+        {
+            int total = 0;
+            if (int.TryParse(txtfrom.Text, out int form) && int.TryParse(txtTo.Text, out int to) && int.TryParse(txtStep.Text, out int step))
+            {
+                int start = form;
+                do
+                {
+                    total += form;
+                    form += step;
+                } while (form <= to);
+
+                labResult.Text = $" {start} 到 {to} 相隔 {step - 1}\n加總為 {total}";
+            }
+            else
+            {
+                MessageBox.Show("請輸入數值");
+            }
+        }
     }
-}
+    }
+

@@ -48,15 +48,15 @@
             this.btnLotto = new System.Windows.Forms.Button();
             this.btnTree = new System.Windows.Forms.Button();
             this.btn9x9 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtfrom = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtTo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtStep = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
+            this.btnFor = new System.Windows.Forms.Button();
+            this.btnWhile = new System.Windows.Forms.Button();
+            this.btnDo = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.labResult = new System.Windows.Forms.Label();
@@ -274,12 +274,12 @@
             this.btn9x9.UseVisualStyleBackColor = false;
             this.btn9x9.Click += new System.EventHandler(this.btn9x9_Click);
             // 
-            // textBox3
+            // txtfrom
             // 
-            this.textBox3.Location = new System.Drawing.Point(364, 165);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(62, 22);
-            this.textBox3.TabIndex = 21;
+            this.txtfrom.Location = new System.Drawing.Point(364, 165);
+            this.txtfrom.Name = "txtfrom";
+            this.txtfrom.Size = new System.Drawing.Size(62, 22);
+            this.txtfrom.TabIndex = 21;
             // 
             // label2
             // 
@@ -291,12 +291,12 @@
             this.label2.TabIndex = 20;
             this.label2.Text = "From:";
             // 
-            // textBox4
+            // txtTo
             // 
-            this.textBox4.Location = new System.Drawing.Point(364, 193);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(62, 22);
-            this.textBox4.TabIndex = 23;
+            this.txtTo.Location = new System.Drawing.Point(364, 193);
+            this.txtTo.Name = "txtTo";
+            this.txtTo.Size = new System.Drawing.Size(62, 22);
+            this.txtTo.TabIndex = 23;
             // 
             // label3
             // 
@@ -308,12 +308,12 @@
             this.label3.TabIndex = 22;
             this.label3.Text = "To:";
             // 
-            // textBox5
+            // txtStep
             // 
-            this.textBox5.Location = new System.Drawing.Point(364, 221);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(62, 22);
-            this.textBox5.TabIndex = 25;
+            this.txtStep.Location = new System.Drawing.Point(364, 221);
+            this.txtStep.Name = "txtStep";
+            this.txtStep.Size = new System.Drawing.Size(62, 22);
+            this.txtStep.TabIndex = 25;
             // 
             // label4
             // 
@@ -325,38 +325,41 @@
             this.label4.TabIndex = 24;
             this.label4.Text = "Step:";
             // 
-            // button17
+            // btnFor
             // 
-            this.button17.BackColor = System.Drawing.SystemColors.Info;
-            this.button17.Font = new System.Drawing.Font("新細明體", 10F);
-            this.button17.Location = new System.Drawing.Point(432, 165);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(62, 22);
-            this.button17.TabIndex = 26;
-            this.button17.Text = "for";
-            this.button17.UseVisualStyleBackColor = false;
+            this.btnFor.BackColor = System.Drawing.SystemColors.Info;
+            this.btnFor.Font = new System.Drawing.Font("新細明體", 10F);
+            this.btnFor.Location = new System.Drawing.Point(432, 165);
+            this.btnFor.Name = "btnFor";
+            this.btnFor.Size = new System.Drawing.Size(62, 22);
+            this.btnFor.TabIndex = 26;
+            this.btnFor.Text = "for";
+            this.btnFor.UseVisualStyleBackColor = false;
+            this.btnFor.Click += new System.EventHandler(this.btnFor_Click);
             // 
-            // button18
+            // btnWhile
             // 
-            this.button18.BackColor = System.Drawing.SystemColors.Info;
-            this.button18.Font = new System.Drawing.Font("新細明體", 10F);
-            this.button18.Location = new System.Drawing.Point(432, 193);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(62, 22);
-            this.button18.TabIndex = 27;
-            this.button18.Text = "while";
-            this.button18.UseVisualStyleBackColor = false;
+            this.btnWhile.BackColor = System.Drawing.SystemColors.Info;
+            this.btnWhile.Font = new System.Drawing.Font("新細明體", 10F);
+            this.btnWhile.Location = new System.Drawing.Point(432, 193);
+            this.btnWhile.Name = "btnWhile";
+            this.btnWhile.Size = new System.Drawing.Size(62, 22);
+            this.btnWhile.TabIndex = 27;
+            this.btnWhile.Text = "while";
+            this.btnWhile.UseVisualStyleBackColor = false;
+            this.btnWhile.Click += new System.EventHandler(this.button18_Click);
             // 
-            // button19
+            // btnDo
             // 
-            this.button19.BackColor = System.Drawing.SystemColors.Info;
-            this.button19.Font = new System.Drawing.Font("新細明體", 10F);
-            this.button19.Location = new System.Drawing.Point(432, 221);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(62, 22);
-            this.button19.TabIndex = 28;
-            this.button19.Text = "do";
-            this.button19.UseVisualStyleBackColor = false;
+            this.btnDo.BackColor = System.Drawing.SystemColors.Info;
+            this.btnDo.Font = new System.Drawing.Font("新細明體", 10F);
+            this.btnDo.Location = new System.Drawing.Point(432, 221);
+            this.btnDo.Name = "btnDo";
+            this.btnDo.Size = new System.Drawing.Size(62, 22);
+            this.btnDo.TabIndex = 28;
+            this.btnDo.Text = "do";
+            this.btnDo.UseVisualStyleBackColor = false;
+            this.btnDo.Click += new System.EventHandler(this.button19_Click);
             // 
             // btnClear
             // 
@@ -399,14 +402,14 @@
             this.Controls.Add(this.labResult);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.btnDo);
+            this.Controls.Add(this.btnWhile);
+            this.Controls.Add(this.btnFor);
+            this.Controls.Add(this.txtStep);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtTo);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtfrom);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn9x9);
             this.Controls.Add(this.btnTree);
@@ -457,15 +460,15 @@
         private System.Windows.Forms.Button btnLotto;
         private System.Windows.Forms.Button btnTree;
         private System.Windows.Forms.Button btn9x9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtfrom;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtTo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtStep;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button btnFor;
+        private System.Windows.Forms.Button btnWhile;
+        private System.Windows.Forms.Button btnDo;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labResult;

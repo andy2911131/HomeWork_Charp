@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -264,6 +265,11 @@ namespace HW_Form
         private void 說明LToolStripButton_Click(object sender, EventArgs e)
         {
             關於AToolStripMenuItem_Click(sender, e);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labTime.Text = DateTime.Now.ToString( );
         }
     }
 }
