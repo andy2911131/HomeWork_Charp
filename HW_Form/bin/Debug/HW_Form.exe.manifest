@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HW_Form.exe" size="8252376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HW_Form.exe" size="14900696">
       <assemblyIdentity name="HW_Form" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>aX1a2pUU6mBb2OiaG06WEOJr77XVT/GSw7HGE+IPCjI=</dsig:DigestValue>
+        <dsig:DigestValue>z75XJNgT98fjfmwusQikyWtvd3xC9GQunOpaA6cJ+mo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

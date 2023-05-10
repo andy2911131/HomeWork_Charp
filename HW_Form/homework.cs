@@ -118,5 +118,14 @@ namespace HW_Form
             Screensaver screensaver = new Screensaver();   
             screensaver.Show();
         }
+
+        private void btnPv_Click(object sender, EventArgs e)
+        {
+            Panel1Clear();
+            PictureViewer PV = new PictureViewer();
+            PV.MdiParent = this;
+            PV.Parent = splitContainer2.Panel1;
+            PV.Show();
+        }
     }
 }

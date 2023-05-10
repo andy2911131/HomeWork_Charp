@@ -91,6 +91,53 @@
     <Compile Include="ForDoWhile.Designer.cs">
       <DependentUpon>ForDoWhile.cs</DependentUpon>
     </Compile>
+    <Compile Include="picture3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture3.Designer.cs">
+      <DependentUpon>picture3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picture1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture1.Designer.cs">
+      <DependentUpon>picture1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picture2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture2.Designer.cs">
+      <DependentUpon>picture2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picture4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture4.Designer.cs">
+      <DependentUpon>picture4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picture5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture5.Designer.cs">
+      <DependentUpon>picture5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picture6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture6.Designer.cs">
+      <DependentUpon>picture6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureViewer.Designer.cs">
+      <DependentUpon>PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
     <Compile Include="Screensaver.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +217,31 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ForDoWhile.resx">
       <DependentUpon>ForDoWhile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture3.resx">
+      <DependentUpon>picture3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture1.resx">
+      <DependentUpon>picture1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture2.resx">
+      <DependentUpon>picture2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture4.resx">
+      <DependentUpon>picture4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture5.resx">
+      <DependentUpon>picture5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture6.resx">
+      <DependentUpon>picture6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureViewer.resx">
+      <DependentUpon>PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Screensaver.resx">
       <DependentUpon>Screensaver.cs</DependentUpon>
@@ -260,6 +332,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\17e51481ac731d5aa3a8fe8517aba6e0.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpeg" />
+    <None Include="Resources\6.jpg" />
+    <None Include="Resources\5.jpg" />
+    <None Include="Resources\4.png" />
+    <None Include="Resources\1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

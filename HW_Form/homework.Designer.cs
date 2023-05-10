@@ -38,9 +38,10 @@
             this.btnHello = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.btnPv = new System.Windows.Forms.Button();
+            this.btnSs = new System.Windows.Forms.Button();
             this.btnNotepad = new System.Windows.Forms.Button();
             this.btnForDoWhile = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -176,7 +177,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel2.BackgroundImage")));
-            this.splitContainer2.Panel2.Controls.Add(this.button1);
+            this.splitContainer2.Panel2.Controls.Add(this.btnPv);
+            this.splitContainer2.Panel2.Controls.Add(this.btnSs);
             this.splitContainer2.Panel2.Controls.Add(this.btnNotepad);
             this.splitContainer2.Panel2.Controls.Add(this.btnForDoWhile);
             this.splitContainer2.Panel2.Controls.Add(this.btnHello);
@@ -189,6 +191,34 @@
             this.splitContainer2.Size = new System.Drawing.Size(1184, 543);
             this.splitContainer2.SplitterDistance = 882;
             this.splitContainer2.TabIndex = 0;
+            // 
+            // btnPv
+            // 
+            this.btnPv.AutoSize = true;
+            this.btnPv.BackColor = System.Drawing.Color.Gold;
+            this.btnPv.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnPv.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnPv.Location = new System.Drawing.Point(65, 416);
+            this.btnPv.Name = "btnPv";
+            this.btnPv.Size = new System.Drawing.Size(169, 31);
+            this.btnPv.TabIndex = 10;
+            this.btnPv.Text = "PictureViewer";
+            this.btnPv.UseVisualStyleBackColor = false;
+            this.btnPv.Click += new System.EventHandler(this.btnPv_Click);
+            // 
+            // btnSs
+            // 
+            this.btnSs.AutoSize = true;
+            this.btnSs.BackColor = System.Drawing.Color.Gold;
+            this.btnSs.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSs.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSs.Location = new System.Drawing.Point(65, 382);
+            this.btnSs.Name = "btnSs";
+            this.btnSs.Size = new System.Drawing.Size(169, 31);
+            this.btnSs.TabIndex = 9;
+            this.btnSs.Text = "Screensaver";
+            this.btnSs.UseVisualStyleBackColor = false;
+            this.btnSs.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btnNotepad
             // 
@@ -215,20 +245,6 @@
             this.btnForDoWhile.Text = "ForDoWhile";
             this.btnForDoWhile.UseVisualStyleBackColor = false;
             this.btnForDoWhile.Click += new System.EventHandler(this.btnForDoWhile_Click);
-            // 
-            // button1
-            // 
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(65, 382);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 31);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Screensaver";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // homework
             // 
@@ -266,7 +282,8 @@
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.Button btnForDoWhile;
         private System.Windows.Forms.Button btnNotepad;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSs;
+        private System.Windows.Forms.Button btnPv;
     }
 }
 
